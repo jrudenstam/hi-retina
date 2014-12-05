@@ -52,7 +52,7 @@ define(['helper'], function( h ){
 
 			// If image had hi-res and need hi-res
 			if ( h.getAttribute(img, this.settings.hiResAttr) && needHiRes ) {
-				img.src = h.getAttribute(img, this.settings.hiResAttr);
+				img.src = h.getAttribute(img, this.settings.hiResAttr); 
 			}
 		},
 
